@@ -1,0 +1,21 @@
+DIM a
+DIM b
+DIM c
+INPUT "Ingresar valor de A ", a
+INPUT "Ingresar valor de B ", b
+INPUT "Ingresar valor de C ", c
+IF a < b THEN
+    IF a < c THEN
+        PRINT "A es el menor"
+    ELSE
+        PRINT "C es el menor"
+    END IF
+ELSE
+    IF b < c THEN
+        PRINT "B es el menor"
+    ELSE
+        PRINT "C es el menor"
+    END IF
+END IF
+
+

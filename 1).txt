@@ -1,0 +1,14 @@
+DIM a
+DIM b
+INPUT "Ingresar valor de a ", a
+INPUT "Ingrear valor de b ", b
+IF a > b THEN
+    PRINT "A es mayor"
+ELSE
+    IF a = b THEN
+        PRINT "Son iguales"
+    ELSE
+        PRINT "B es mayor"
+    END IF
+END IF
+

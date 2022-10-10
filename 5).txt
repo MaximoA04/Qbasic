@@ -1,0 +1,38 @@
+DIM x
+DIM y
+INPUT "Ingresar valor de X ", x
+INPUT "Ingresar valor de Y ", y
+IF x = 0 THEN
+    IF x = y THEN
+        PRINT "Esta en el punto de origen"
+    ELSE
+        IF y > 0 THEN
+            PRINT "Esta en el semieje Y+"
+        ELSE
+            PRINT " Esta en el semieje Y-"
+        END IF
+    END IF
+ELSE
+    IF y = 0 THEN
+        IF x > 0 THEN
+            PRINT "Esta en el semieje X+"
+        ELSE
+            PRINT "Esta en el semieje X-"
+        END IF
+    ELSE
+        IF x > 0 THEN
+            IF y > 0 THEN
+                PRINT "Esta en el cuadrante I"
+            ELSE
+                PRINT "Esta en el cuadrante IV"
+            END IF
+        ELSE
+            IF y > 0 THEN
+                PRINT "Esta en el cuadrante II"
+            ELSE
+                PRINT "Esta en el cuadrante III"
+            END IF
+        END IF
+    END IF
+END IF
+

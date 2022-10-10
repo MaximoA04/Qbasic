@@ -1,0 +1,14 @@
+CLS
+DO
+    INPUT "Ingresar valor ", a
+    IF a > max1 THEN
+        max1 = a
+    ELSE
+        IF a > max2 THEN
+            max2 = a
+        END IF
+    END IF
+LOOP UNTIL a = 0
+PRINT "El mayor valor ingresado es ", max1
+PRINT "El segundo mayor valor ingresado es ", max2
+

@@ -1,0 +1,34 @@
+CLS
+DIM a
+DIM max
+DIM min
+DIM cont
+DIM nmax
+DIM nmin
+INPUT "Ingresar valor de A ", a
+max = a
+min = a
+count = 1
+DO WHILE count < 99
+    INPUT "Ingresar valor de A ", a
+
+    count = count + 1
+    IF a > max THEN
+        max = a
+        nmax = count
+    ELSE
+        IF a < min THEN
+            min = a
+            nmin = count
+        END IF
+    END IF
+LOOP
+PRINT "El valor maximo ingresado es "; max
+PRINT "Y su numero de orden es "; nmax
+PRINT "El valor minimo ingresado es "; min
+PRINT "Y su numero de orden es "; nmin
+
+
+
+
+

@@ -1,0 +1,15 @@
+CLS
+INPUT "Cantidad de Elementos de la Serie Fibonacii: ", CaElementos
+Con = 0
+nAct = 1
+nAnt = 0
+
+DO WHILE (Con < CaElementos)
+    PRINT nAnt
+    nSig = nAnt + nAct
+    nAnt = nAct
+    nAct = nSig
+    Con = Con + 1
+
+LOOP
+

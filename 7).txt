@@ -1,0 +1,14 @@
+CLS
+DIM a
+DIM ac
+DIM count
+DIM min
+DO UNTIL ac > 999
+    INPUT "Ingresar un valor ", a
+    ac = ac + a
+    IF a < min THEN
+        min = a
+    END IF
+LOOP
+PRINT "El valor minimo ingresado es "; min
+

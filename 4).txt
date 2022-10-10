@@ -1,0 +1,29 @@
+DIM a
+DIM b
+DIM c
+INPUT "Ingresar valor de A ", a
+INPUT "Ingresar valor de B ", b
+INPUT "Ingresar valor de C ", c
+IF a + b + c = 180 THEN
+    PRINT "Es un triangulo"
+    IF a = b = c THEN
+        PRINT "Es equilatero"
+    ELSE
+        IF a = b THEN
+            PRINT " Es isosceles"
+        ELSE
+            IF a = c THEN
+                PRINT "Es isosceles"
+            ELSE
+                IF b = c THEN
+                    PRINT "Es isosceles"
+                ELSE
+                    PRINT "Es escaleno"
+                END IF
+            END IF
+        END IF
+    END IF
+ELSE
+    PRINT "No es un triangulo"
+END IF
+
