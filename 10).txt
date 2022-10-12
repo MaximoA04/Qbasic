@@ -1,0 +1,19 @@
+CLS
+DIM n
+DIM c
+DIM j
+INPUT "Ingresar valor de N", n
+c = 0
+j = c
+DO UNTIL n = 0
+DO UNTIL j = 0
+PRINT "*";
+j = j - 1
+LOOP
+PRINT "*"
+n = n - 1
+c = c + 1
+j = c
+LOOP
+
+
